@@ -13,7 +13,10 @@ Pokemon List desenvolvido com:
 </ul>
 
 ### Tela do app
-![App]('')
+![App](https://github.com/alesandrobarbosa/pokemon-list/blob/master/src/view/images/1print.png?raw=true)
+
+### LazyLoad
+![LazyLoad](https://github.com/alesandrobarbosa/pokemon-list/blob/master/src/view/images/2print.png?raw=true)
 
 ## Requisitos
 
