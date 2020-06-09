@@ -1,7 +1,7 @@
 # Invillia | Desafio
 ![Invillia](https://github.com/alesandrobarbosa/pokemon-list/blob/master/src/view/images/logo_invillia.png?raw=true)
 
-![GitHub repo size]('')
+![GitHub repo size](https://img.shields.io/github/languages/code-size/alesandrobarbosa/pokemon-list)
 
 Pokemon List desenvolvido com:
 
