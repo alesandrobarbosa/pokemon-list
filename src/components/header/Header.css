@@ -1,0 +1,12 @@
+.header-sign {
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.header-sign span {
+    color: #fff;
+    display: block;
+    text-align: right;
+    font-size: 16px;
+}

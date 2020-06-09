@@ -1,0 +1,100 @@
+.main-content {
+  padding: 0 20px;
+}
+
+/* ================ Header ======================= */
+
+.header-content {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+  margin-bottom: 15px;
+}
+
+.header-content img {
+  display: block;
+  margin: auto;
+}
+
+.header-name {
+  text-transform: capitalize;
+}
+
+.header-name h1 {
+  color: #4b687d;
+  font-size: 1.4rem;
+}
+
+/* ==================== Container Semantic UI ======================== */
+
+.container-hover {
+  position: relative;
+  width: 50%;
+}
+
+.container-hover:hover .image {
+  /* opacity: 0.5; */
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.container-hover:hover .middle {
+  opacity: 1;
+}
+
+.text-hover {
+  background-color: #0f466d;
+  color: white;
+  font-size: 0.95em;
+  padding: 1em;
+}
+
+/* ==================== Semantic UI card ======================== */
+
+
+.ui.segment {
+  height: 100vh;
+}
+
+.ui.fluid.card {
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.ui.card>.content, .ui.cards>.card>.content {
+  background: #fff;
+}
+
+.ui.card>.image, .ui.cards>.card>.image {
+  width: 100%;
+}
+
+.ui.card>.image>img {
+  padding: 20px;
+}
+
+.ui.card>.content>.description, .ui.cards>.card>.content>.description {
+  color: #626987;
+  font-weight: 400;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  display: block;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+

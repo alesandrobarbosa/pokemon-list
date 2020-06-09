@@ -1,0 +1,83 @@
+.modal {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: none;
+    z-index: 99999;
+    display: block;
+    pointer-events: none;
+}
+
+.modal-dialog {
+    max-width: 540px;
+    position: relative;
+    top: -1000px;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    background:rgba(6, 82, 118, 0.85);
+    color: #fff;
+    background: -o-linear-gradient(#ffffff, #cccccc);
+}
+
+.modal-dialog .ie7 {
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=135, Strength=3);
+}
+
+.modal:target {
+    display: block;
+    pointer-events: auto;
+    background: rgba(68, 118, 168, 0.42);
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.modal:target .modal-dialog {
+    top: 25vh;
+    -moz-transition: all 0.8s ease-out;
+    -webkit-transition: all 0.8s ease-out;
+    -o-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+}
+
+.modal-close {
+    background: #fff;
+    color: #176783;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.modal-close .ie7 {
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=135, Strength=3);
+}
+
+.modal-close:hover {
+    background: #176783;
+    color: #fff;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.fineprint {
+    font-style: italic;
+    font-size: 10px;
+    color: #646;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-image: url('view/images/bg.png');
+  background-size: cover;
+}
+
+.ui .segment {
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
