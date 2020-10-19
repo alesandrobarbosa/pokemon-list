@@ -1,8 +1,3 @@
-# Invillia | Desafio
-![Invillia](https://github.com/alesandrobarbosa/pokemon-list/blob/master/src/view/images/logo_invillia.png?raw=true)
-
-![GitHub repo size](https://img.shields.io/github/languages/code-size/alesandrobarbosa/pokemon-list)
-
 Pokemon List desenvolvido com:
 
 <ul>
@@ -41,14 +36,6 @@ Para rodar o Pokemon List, siga os passos abaixo:
 ```
 npm start
 ```
-
-
-## Contatos
-
-Segue abaixo meus contatos:
-
-barbos.alesandro@gmail.com
-
 
 ## Licenca
 
